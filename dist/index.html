@@ -1,12 +1,115 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Pixel Art Editor</title>
-</head>
-<body>
-  <h1>Pixel Art Editor</h1>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pixel Art JS</title>
+    <link rel="stylesheet" href="/src/css/style.css" />
+    <link rel="stylesheet" href="/src/css/unslider.css" />
+    <link rel="stylesheet" href="/src/css/unslider-dots.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="center-block-main">
+        <input type="checkbox" id="checkbox-menu" />
+        <label for="checkbox-menu">
+          <ul class="menu touch">
+            <li><a class="logo" href="#">PIXI</a></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Editor</a></li>
+            <li><a href="#">Library</a></li>
+            <li><a href="#">Account</a></li>
+            <li><a class="contacts" href="#">Contact Us</a></li>
+            <li><a href="#">Help</a></li>
+            <li><a href="#">Login</a></li>
+            <li><a href="#">Sign Up</a></li>
+          </ul>
+          <span class="toggle">☰</span>
+        </label>
+      </nav>
+    </header>
+
+    <div class="slider center-block-main">
+      <ul>
+        <li>
+          <h2>Pixel Art Editor</h2>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis
+            <br />
+            quisquam voluptatum adipisci doloremque temporibus autem <br />
+            aliquam ut tempore expedita, quis molestias velit ducimus <br />
+            pariatur omnis laboriosam, repellendus repudiandae. <br />
+            Molestiae, impedit.
+          </p>
+          <button>Start Creating!</button>
+          <img src="/img/1-slider.jpg" alt="" />
+        </li>
+        <li>
+          <h2>Pixel Art Editor</h2>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis
+            <br />
+            quisquam voluptatum adipisci doloremque temporibus autem <br />
+            aliquam ut tempore expedita, quis molestias velit ducimus <br />
+            pariatur omnis laboriosam, repellendus repudiandae. <br />
+            Molestiae, impedit.
+          </p>
+          <button>Start Creating!</button>
+          <img src="/img/2-slider.jpg" alt="" />
+        </li>
+        <li>
+          <h2>Pixel Art Editor</h2>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis
+            <br />
+            quisquam voluptatum adipisci doloremque temporibus autem <br />
+            aliquam ut tempore expedita, quis molestias velit ducimus <br />
+            pariatur omnis laboriosam, repellendus repudiandae. <br />
+            Molestiae, impedit.
+          </p>
+          <button>Start Creating!</button>
+          <img src="/img/3-slider.jpg" alt="" />
+        </li>
+        <li>
+          <h2>Pixel Art Editor</h2>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis
+            <br />
+            quisquam voluptatum adipisci doloremque temporibus autem <br />
+            aliquam ut tempore expedita, quis molestias velit ducimus <br />
+            pariatur omnis laboriosam, repellendus repudiandae. <br />
+            Molestiae, impedit.
+          </p>
+          <button>Start Creating!</button>
+          <img src="/img/4-slider.jpg" alt="" />
+        </li>
+        <li>
+          <h2>Pixel Art Editor</h2>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis
+            <br />
+            quisquam voluptatum adipisci doloremque temporibus autem <br />
+            aliquam ut tempore expedita, quis molestias velit ducimus <br />
+            pariatur omnis laboriosam, repellendus repudiandae. <br />
+            Molestiae, impedit.
+          </p>
+          <button>Start Creating!</button>
+          <img src="/img/5--slider.jpg" alt="" />
+        </li>
+      </ul>
+    </div>
+
+    <script src="//code.jquery.com/jquery-latest.min.js"></script>
+    <script src="/src/js/unslider-min.js"></script>
+    <script>
+      $(function () {
+        $('.slider').unslider({
+          autoplay: true,
+          arrows: false,
+        });
+      });
+    </script>
+    <script src="/src/js/app.js"></script>
+  </body>
 </html>
